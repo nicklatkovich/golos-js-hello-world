@@ -2,9 +2,9 @@
   "name": "golos-js-hello-world",
   "version": "1.0.0",
   "description": "example of using golos-js",
-  "main": "hello-world.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node account-count.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
