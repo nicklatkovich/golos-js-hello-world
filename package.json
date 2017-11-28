@@ -1,0 +1,26 @@
+{
+  "name": "golos-js-hello-world",
+  "version": "1.0.0",
+  "description": "example of using golos-js",
+  "main": "hello-world.js",
+  "scripts": {
+    "start": "node account-count.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicklatkovich/golos-js-hello-world.git"
+  },
+  "keywords": [
+    "golos-js",
+    "example"
+  ],
+  "author": "NickLatkovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicklatkovich/golos-js-hello-world/issues"
+  },
+  "homepage": "https://github.com/nicklatkovich/golos-js-hello-world#readme",
+  "dependencies": {
+    "golos-js": "^0.5.29"
+  }
+}
