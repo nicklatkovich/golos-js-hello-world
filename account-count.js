@@ -1,12 +1,16 @@
 
 const golos = require('golos-js')
 
-async function getAccountCount( ) {
+async function makePromise(func) {
     return new Promise((resolve, reject) => {
-        golos.api.getAccountCount(function (err, res) {
+        func(function (err, res) {
             err ? reject(err) : resolve(res)
         })
     })
+}
+
+async function getAccountCount( ) {
+    return await makePromise(golos.api.getAccountCount)
 }
 
 async function main( ) {
